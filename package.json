@@ -1,0 +1,17 @@
+{
+  "name": "betcity-parser",
+  "version": "0.0.1",
+  "description": "Парсер Бетсити - https://betcity.ru/",
+  "main": "./build/index.js",
+  "private": true,
+  "dependencies": {
+    "@types/node-fetch": "^2.6.9",
+    "@types/pg": "^8.10.9",
+    "configurator-watcher": "^4.0.6",
+    "https-proxy-agent": "^7.0.2",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.8.0"
+  }
+}

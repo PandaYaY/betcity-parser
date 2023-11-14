@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "target": "es2017",
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "declaration": true,
+      "outDir": "./build/",
+      "rootDir": "./src/",
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "src/**/*.ts",
+      "package.json"
+    ],
+    "exclude": [
+      "./build/**/*"
+    ]
+  }
